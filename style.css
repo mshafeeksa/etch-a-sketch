@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100%;
+    background-color: #e3cbbf;
+}
+
+header{
+    font-size: 32px;
+    background-color: #510000;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+footer{
+    font-size: 20px;
+    background-color: #510000;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+button{
+    background-color: #9b2e41;
+    color: #e3cbbf;
+    border-radius: 10px;
+}
+
+.grid{
+    max-height: 500px;
+    max-width: 500px;
+    min-height: 500px;
+    min-width: 500px;
+    border: 2px solid #510000;
+    margin: 30px auto;
+}
+.main-container{
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#display-size{
+    width: 40%;
+    height: 50px;
+    font-size: 26px;
+    font-weight: 600;
+    border: 2px solid #510000;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto 20px;
+}
+
+#change-size{
+    max-width: 350px;
+    height: 50px;
+    font-size: 22px;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+
+.options{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+}
+.option-button{
+    width: 33.3%;
+    font-size: 16px;
+    margin: auto 10px;
+    padding: 20px auto;
+    font-weight: 700;
+    height: 60px;
+}
