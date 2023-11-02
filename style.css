@@ -8,6 +8,11 @@ html, body{
     height: 100%;
 }
 
+.active-button{
+    border: 3px solid #510000;
+    background-color: #211306;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -83,10 +88,12 @@ button{
     flex: 1;
 }
 .option-button{
+    /* text-wrap: wrap; */
     width: 33.3%;
-    font-size: 16px;
-    margin: auto 10px;
+    font-size: 12px;
+    margin: auto 5px;
     padding: 20px auto;
     font-weight: 700;
     height: 60px;
+
 }
